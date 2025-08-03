@@ -119,7 +119,7 @@ export default function Home() {
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
           {/* Name Field */}
           <div className="relative">
-            <div className="flex items-center bg-white border border-gray-200 rounded-2xl px-6 py-1 shadow-sm">
+            <div className="flex items-center bg-white border border-gray-200 rounded-2xl px-6 py-5 shadow-sm">
               <img src="/Icons/user.svg" alt="User" className="text-gray-400 mr-4 flex-shrink-0" width={24} height={24} />
               <div className="flex-1">
                 <label className="block text-lg font-semibold text-black mb-1">
