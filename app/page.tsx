@@ -198,7 +198,7 @@ export default function Home() {
 
           {/* Description Field */}
           <div className="relative">
-            <div className="flex bg-white border border-gray-200 rounded-2xl px-4 py-3 shadow-sm">
+            <div className="flex bg-white border border-gray-200 rounded-2xl px-4 py-4 shadow-sm">
               <img src="/Icons/Description.svg" alt="Description" className="text-gray-400 mr-4 flex-shrink-0 mt-1" width={24} height={24} />
               <div className="flex-1">
                 <label className="block text-lg font-semibold text-black mb-1">
