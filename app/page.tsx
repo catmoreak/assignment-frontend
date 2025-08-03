@@ -111,15 +111,15 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-16 px-4">
+    <div className="min-h-screen bg-gray-50 py-10 px-4">
       <div className="max-w-2xl mx-auto">
-        <h1 className="text-5xl font-bold text-center text-black mb-16">
+        <h1 className="text-3xl font-bold text-center text-black mb-16">
           Add Your details
         </h1>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
           {/* Name Field */}
           <div className="relative">
-            <div className="flex items-center bg-white border border-gray-200 rounded-2xl px-6 py-2 shadow-sm">
+            <div className="flex items-center bg-white border border-gray-200 rounded-2xl px-6 py-1 shadow-sm">
               <img src="/Icons/user.svg" alt="User" className="text-gray-400 mr-4 flex-shrink-0" width={24} height={24} />
               <div className="flex-1">
                 <label className="block text-lg font-semibold text-black mb-1">
@@ -215,11 +215,11 @@ export default function Home() {
           </div>
 
           {/* Action Buttons */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
             <Button
               type="submit"
               disabled={isGenerating}
-              className="h-16 text-xl font-semibold bg-green-600 hover:bg-green-700 text-white rounded-2xl transition-colors duration-200"
+              className="h-12 text-xl font-semibold bg-green-600 hover:bg-green-700 text-white rounded-2xl transition-colors duration-200"
             >
               {isGenerating ? 'Generating...' : 'View PDF'}
             </Button>
@@ -227,7 +227,7 @@ export default function Home() {
               type="button"
               onClick={handleDownload}
               disabled={isGenerating}
-              className="h-16 text-xl font-semibold bg-green-600 hover:bg-green-700 text-white rounded-2xl transition-colors duration-200 flex items-center justify-center gap-3"
+              className="h-12 text-xl font-semibold bg-green-600 hover:bg-green-700 text-white rounded-2xl transition-colors duration-200 flex items-center justify-center gap-3"
             >
               <img src="/Icons/Download.svg" alt="Download" width={24} height={24} />
               Download PDF
