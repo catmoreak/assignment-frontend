@@ -159,7 +159,7 @@ export default function Preview() {
           <Button
             onClick={handleDownload}
             disabled={isGenerating}
-            className="h-16 px-12 text-xl font-semibold bg-green-600 hover:bg-green-700 text-white rounded-2xl transition-colors duration-200 flex items-center justify-center gap-3"
+            className="h-12 px-12 text-xl font-semibold bg-green-600 hover:bg-green-700 text-white rounded-2xl transition-colors duration-200 flex items-center justify-center gap-3"
           >
             <Download size={24} />
             {isGenerating ? 'Generating PDF...' : 'Download PDF'}
